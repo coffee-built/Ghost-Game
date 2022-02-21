@@ -134,9 +134,9 @@ GameObject:
   - component: {fileID: 132248709}
   - component: {fileID: 132248708}
   - component: {fileID: 132248710}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall N
-  m_TagString: Untagged
+  m_TagString: GhostWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -243,9 +243,9 @@ GameObject:
   - component: {fileID: 214715784}
   - component: {fileID: 214715783}
   - component: {fileID: 214715785}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall E
-  m_TagString: Untagged
+  m_TagString: RegularWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -354,9 +354,10 @@ GameObject:
   - component: {fileID: 365475467}
   - component: {fileID: 365475470}
   - component: {fileID: 365475471}
-  m_Layer: 5
+  - component: {fileID: 365475472}
+  m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -457,7 +458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc140203c654dbf4a865b7e00d9ebd8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0.1
+  playerSpeed: 6
 --- !u!50 &365475471
 Rigidbody2D:
   serializedVersion: 4
@@ -479,6 +480,32 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &365475472
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365475466}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.29, y: 8.46}
+    newSize: {x: 7.29, y: 8.46}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 7.29, y: 8.46}
+  m_EdgeRadius: 0
 --- !u!1 &425751946
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,9 +517,9 @@ GameObject:
   - component: {fileID: 425751948}
   - component: {fileID: 425751947}
   - component: {fileID: 425751949}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Wall W
-  m_TagString: Untagged
+  m_TagString: RegularWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -764,9 +791,9 @@ GameObject:
   - component: {fileID: 1462423848}
   - component: {fileID: 1462423847}
   - component: {fileID: 1462423849}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall S
-  m_TagString: Untagged
+  m_TagString: GhostWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

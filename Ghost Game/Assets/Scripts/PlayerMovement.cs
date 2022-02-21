@@ -9,12 +9,15 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
     }
 
     void Update()
     {
         Vector2 move = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        rb.AddForce(move, ForceMode2D.Impulse);
+
+        // fix velocity for constant speed
+        rb.velocity = move * playerSpeed;
     }
 
 }
