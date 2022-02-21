@@ -6,42 +6,58 @@ public class Character
     /// <summary>
     /// A Guid to refer to the character by
     /// </summary>
-    private Guid characterId;
+    public Guid characterId;
 
     /// <summary>
     /// Scale from 0-10 for bravery level, 0 being cowardly, 10 being brave
     /// </summary>
-    private int bravery;
+    public int bravery;
 
     /// <summary>
     /// Scale from 0-10 for curiosity level, 0 being unlikely to ever investigate, 10 being likely to investigate everything (Prolly some correlation to bravery)
     /// </summary>
-    private int curiosity;
+    public int curiosity;
 
     /// <summary>
     /// Scale from 0-10 for perceptiveness level, 0 being unlikely to notice things, 10 being likely to notice everything (Prolly some correlation to curiosity)
     /// </summary>
-    private int perceptiveness;
+    public int perceptiveness;
 
     /// <summary>
     /// Age
     /// </summary>
-    private int age;
+    public int age;
 
     /// <summary>
     /// Scale from 0-10 for Extroversion level
     /// </summary>
-    private int extroversion;
+    public int extroversion;
 
     /// <summary>
     /// Scale from 0-10 for Trusting level
     /// </summary>
-    private int trusting;
+    public int trusting;
 
     /// <summary>
     /// A collection of the relationships between the character, and all other characters in the scenario
     /// </summary>
-    private List<CharacterRelationship> characterRelationships;
+    public List<CharacterRelationship> characterRelationships;
 
     //TODO: Maybe we should store sprite stuff here idk how these things are normally structured, find that out
+
+    public Character(int charAge)
+    {
+        characterId = new Guid();
+
+        Random r = new Random();
+
+        bravery = r.Next(1,11);
+        curiosity = r.Next(Math.Max(0, bravery - 2), Math.Min(11, bravery + 2)); //Curiosity will be within a range of +- 2 of bravery
+        perceptiveness = r.Next(Math.Max(0, curiosity - 3), Math.Min(11, curiosity + 3));
+        age = charAge;
+        extroversion = r.Next(1, 11);
+        trusting = r.Next(1, 11);
+
+        characterRelationships = new List<CharacterRelationship>();
+    }
 }
