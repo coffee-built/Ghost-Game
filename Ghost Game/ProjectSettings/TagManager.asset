@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - RegularWall
-  - GhostWall
+  - InternalWall
+  - ExternalWall
   layers:
   - Default
   - TransparentFX
@@ -13,8 +13,8 @@ TagManager:
   - 
   - Water
   - UI
-  - GhostWalls
-  - HumanWalls
+  - ExternalWalls
+  - InternalWalls
   - 
   - 
   - 

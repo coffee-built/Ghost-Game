@@ -19,13 +19,18 @@ public class ScenarioGenerator : MonoBehaviour
         {
             System.Random r = new System.Random();
             var age = 0;
-            if (i == 1) age = r.Next(26, 75); //Should be at least one adult in each scenario
-            else age = r.Next(1, 75);
+            if (i == 1) age = r.Next(32, 50); //Should be at least one middle aged adult in each scenario
+            else age = r.Next(1, 75); //Everyone else can be in a significant age range
+            //TODO: Maybe build families around couples, or single parent. 
+            //i.e. build a parent or a couple, then build their children, and then maybe their parents
 
             var character = new Character(age);
             generatedCharacters.Add(character);
         }
 
+
+
+        // Generates relationships, will prolly rework all of this
         var ageDescendingGeneratedCharacters = generatedCharacters.OrderByDescending(gc => gc.age).ToList();
         for(int i = 0; i < ageDescendingGeneratedCharacters.Count() - 1; i++)
         {
