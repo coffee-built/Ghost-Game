@@ -728,24 +728,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f62784ad89168949be7ad56ff7e1aed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charsToGenerate: 1
-  hairVerticalOffset: 2
-  headVerticalOffset: 1
+  charsToGenerate: 5
+  hairVerticalOffset: 1.3
+  shirtVerticalOffset: 0
   hairAnimations:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  headAnimations:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -3318640803889795958, guid: 99bd33d161044db43b13d01339d21ef7, type: 3}
+  - {fileID: -9064456837609552796, guid: 99bd33d161044db43b13d01339d21ef7, type: 3}
+  - {fileID: 8600686530156703267, guid: 99bd33d161044db43b13d01339d21ef7, type: 3}
+  - {fileID: -5443665762081850326, guid: 99bd33d161044db43b13d01339d21ef7, type: 3}
+  - {fileID: -5857244220540654194, guid: 99bd33d161044db43b13d01339d21ef7, type: 3}
+  - {fileID: -81625998403813323, guid: 99bd33d161044db43b13d01339d21ef7, type: 3}
+  - {fileID: -7212042448303723418, guid: 99bd33d161044db43b13d01339d21ef7, type: 3}
+  - {fileID: 4405554055548820283, guid: 99bd33d161044db43b13d01339d21ef7, type: 3}
+  shirtAnimations:
+  - {fileID: 2389299099133516458, guid: a2a823f6a371d5045ab39da61c6c641c, type: 3}
+  - {fileID: -7513382642422769937, guid: a2a823f6a371d5045ab39da61c6c641c, type: 3}
+  - {fileID: -8626051533367037436, guid: a2a823f6a371d5045ab39da61c6c641c, type: 3}
+  - {fileID: 8367187057185354718, guid: a2a823f6a371d5045ab39da61c6c641c, type: 3}
+  - {fileID: -9158050586941477693, guid: a2a823f6a371d5045ab39da61c6c641c, type: 3}
+  - {fileID: -2343502317853828074, guid: a2a823f6a371d5045ab39da61c6c641c, type: 3}
+  - {fileID: 5890036239742332971, guid: a2a823f6a371d5045ab39da61c6c641c, type: 3}
+  - {fileID: -6629822200414592197, guid: a2a823f6a371d5045ab39da61c6c641c, type: 3}
   torsoAnimations:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 3611520221577701176, guid: cc956882ac6055542998ad4291af87b6, type: 3}
+  - {fileID: -4905120610776456377, guid: cc956882ac6055542998ad4291af87b6, type: 3}
+  - {fileID: 3392201760618080023, guid: cc956882ac6055542998ad4291af87b6, type: 3}
+  - {fileID: -9208572246015251980, guid: cc956882ac6055542998ad4291af87b6, type: 3}
+  - {fileID: 3380976828245236773, guid: 6d5fdf0ba72eb61478e94cb5e4ddee55, type: 3}
+  - {fileID: 8558891160990156377, guid: 6d5fdf0ba72eb61478e94cb5e4ddee55, type: 3}
+  - {fileID: 4494563183114164033, guid: 6d5fdf0ba72eb61478e94cb5e4ddee55, type: 3}
+  - {fileID: -8054810101250453028, guid: 6d5fdf0ba72eb61478e94cb5e4ddee55, type: 3}
 --- !u!4 &634483481
 Transform:
   m_ObjectHideFlags: 0
