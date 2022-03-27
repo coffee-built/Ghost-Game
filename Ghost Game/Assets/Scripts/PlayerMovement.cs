@@ -17,4 +17,14 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = move * playerSpeed;
     }
 
+    public void LightAbility()
+    {
+        Debug.Log("Light");
+    }
+
+    public void ScreamAbility()
+    {
+        Debug.Log("Scream");
+    }
+
 }
