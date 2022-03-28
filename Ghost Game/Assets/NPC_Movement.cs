@@ -20,8 +20,8 @@ public class NPC_Movement : MonoBehaviour
 
         System.Random r = new System.Random();
         // Movement code would be put here
-        System.Random randX = r.Next(-1,2);
-        System.Random randY = r.Next(-1,2);
+        int randX = r.Next(-1,2);
+        int randY = r.Next(-1,2);
 
         Vector2 move = new Vector2(randX, randY);
         direction = move;
@@ -34,10 +34,11 @@ public class NPC_Movement : MonoBehaviour
         rb.velocity = direction * minNPCSpeed;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log("collision triggered");
         // should we use tags for walls??
-        if(collision.gameObject.tag == "InternalWalls" || collision.gameObject.tag == "ExternalWalls")
+        if(collision.gameObject.tag == "InternalWall" || collision.gameObject.tag == "ExternalWall")
         {
             // walk the other way
             Debug.Log("player collided with wall!");

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4195429256971023507}
   - component: {fileID: 3622921755710317158}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Character #1 Hair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3705332394387578615}
   - component: {fileID: 4108179559974019036}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Character #1 Shirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7720836762507130343}
   - component: {fileID: 4007040173179156971}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Character #1 Torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -256,7 +256,8 @@ GameObject:
   m_Component:
   - component: {fileID: 618550706122499957}
   - component: {fileID: 6668262966043006260}
-  m_Layer: 0
+  - component: {fileID: -4939113957105993284}
+  m_Layer: 4
   m_Name: Character #1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,3 +302,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &-4939113957105993284
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7709447478165310708}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
