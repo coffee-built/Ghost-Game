@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: 661bb980034f8e14ca29b9e53d302818
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8124121743944233823
+    second: Level1KitchenResolution2_0
+  - first:
+      213: -624405149661287671
+    second: Level1KitchenResolution2_1
+  - first:
+      213: 6923213426443407951
+    second: Level1KitchenResolution2_2
+  - first:
+      213: -9083132054393960686
+    second: Level1KitchenResolution2_3
+  - first:
+      213: -5091676893621278740
+    second: Level1KitchenResolution2_4
+  - first:
+      213: -3678436854522746574
+    second: Level1KitchenResolution2_5
+  - first:
+      213: -8551767968088445028
+    second: Level1KitchenResolution2_6
+  - first:
+      213: -5458045677254550154
+    second: Level1KitchenResolution2_7
+  - first:
+      213: 6239047305546920756
+    second: Level1KitchenResolution2_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -75,9 +102,210 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Level1KitchenResolution2_0
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 820
+        width: 116
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac4d2c3152514f80800000000000000
+      internalID: -8124121743944233823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1KitchenResolution2_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 999
+        width: 125
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ba38a13daa557f0800000000000000
+      internalID: -624405149661287671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1KitchenResolution2_2
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 808
+        width: 125
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42df5b3ee1341060800000000000000
+      internalID: 6923213426443407951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1KitchenResolution2_3
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 805
+        width: 109
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21742e1658b32f180800000000000000
+      internalID: -9083132054393960686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1KitchenResolution2_4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 590
+        width: 67
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7a3a497dab659b0800000000000000
+      internalID: -5091676893621278740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1KitchenResolution2_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 590
+        width: 67
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23967758b2193fcc0800000000000000
+      internalID: -3678436854522746574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1KitchenResolution2_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 418
+        width: 277
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f268c9754025980800000000000000
+      internalID: -8551767968088445028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1KitchenResolution2_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 284
+        width: 67
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dd26fdf502144b0800000000000000
+      internalID: -5458045677254550154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level1KitchenResolution2_8
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 284
+        width: 66
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4337bffe77c859650800000000000000
+      internalID: 6239047305546920756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
