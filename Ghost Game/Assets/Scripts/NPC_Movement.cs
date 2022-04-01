@@ -13,7 +13,7 @@ public class NPC_Movement : MonoBehaviour
     private Vector2 directionVector;
     private int[,] directionsArray = new int[,] {{ 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
     // TO-DO: update animations (separate left, right or flip using code)
-    private string[] directionNames = new string[] { "npc_body_walk_front" , "npc_body_walk_side", "npc_body_walk_front" , "npc_body_walk_side"};
+    private string[] directionNames = new string[] { "npc_body5_walk_front" , "npc_body5_walk_side", "npc_body5_walk_front" , "npc_body5_walk_side"};
 
     // Start is called before the first frame update
     void Start()
