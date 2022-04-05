@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
     public float playerSpeed = 2.0f;
     private Rigidbody2D rb;
 
-    bool currentlyFacingRight = true;
+    private bool currentlyFacingRight = true;
 
     void Start()
     {

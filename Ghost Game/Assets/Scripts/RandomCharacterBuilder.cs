@@ -12,7 +12,6 @@ public class RandomCharacterBuilder : MonoBehaviour
     public List<Sprite> shirtAnimations;
     public List<Sprite> torsoAnimations;
 
-
     // Start is called before the first frame update
     void Start()
     {

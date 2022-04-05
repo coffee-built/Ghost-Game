@@ -2600,6 +2600,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4846403970144444544, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4846403970144444546, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
       propertyPath: m_Name
       value: test_npc_body_walk

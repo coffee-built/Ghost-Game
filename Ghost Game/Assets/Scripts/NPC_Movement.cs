@@ -14,6 +14,7 @@ public class NPC_Movement : MonoBehaviour
     private int[,] directionsArray = new int[,] {{ 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
     // TO-DO: update animations (separate left, right or flip using code)
     private string[] directionNames = new string[] { "npc_body5_walk_front" , "npc_body5_walk_side", "npc_body5_walk_front" , "npc_body5_walk_side"};
+    private bool currentlyFacingRight = true;
 
     // Start is called before the first frame update
     void Start()
@@ -59,6 +60,7 @@ public class NPC_Movement : MonoBehaviour
             // walk the other way
             Debug.Log("player collided with wall!");
             directionVector = -1 * directionVector;
+            Flip();
             rb.velocity = directionVector * minNPCSpeed;
         }
     }
@@ -71,6 +73,7 @@ public class NPC_Movement : MonoBehaviour
         animator.Play(nextAnimationState);
         currentAnimationState = nextAnimationState;
     }
+
     void RandomUpdateDirection()
     {
 
@@ -79,10 +82,28 @@ public class NPC_Movement : MonoBehaviour
         if (d > 3) return;
         
         Vector2 move = new Vector2(directionsArray[d,0], directionsArray[d,1]);
+        if ((move[0] > 0 && !currentlyFacingRight) || (move[0] < 0 && currentlyFacingRight)) Flip();
         ChangeAnimationState(d);
         
         directionVector = move;
         rb.velocity = move * minNPCSpeed;
+
+    }
+
+    void Flip()
+    {
+        Debug.Log("Flipping");
+        Vector3 currentScale = rb.transform.localScale;
+        currentScale.x *= -1;
+        rb.transform.localScale = currentScale;
+        currentlyFacingRight = !currentlyFacingRight;
+
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            Vector3 currentChildScale = transform.GetChild(i).localScale;
+            currentChildScale.x *= -1;
+            transform.GetChild(i).localScale = currentChildScale;
+        }
     }
 
 }
