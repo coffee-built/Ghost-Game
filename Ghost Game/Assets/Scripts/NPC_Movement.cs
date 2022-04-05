@@ -53,12 +53,12 @@ public class NPC_Movement : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("collision triggered");
+        //Debug.Log("collision triggered");
         // should we use tags for walls??
         if(collision.gameObject.tag == "InternalWall" || collision.gameObject.tag == "ExternalWall")
         {
             // walk the other way
-            Debug.Log("player collided with wall!");
+            //Debug.Log("player collided with wall!");
             directionVector = -1 * directionVector;
             Flip();
             rb.velocity = directionVector * minNPCSpeed;
@@ -92,7 +92,7 @@ public class NPC_Movement : MonoBehaviour
 
     void Flip()
     {
-        Debug.Log("Flipping");
+        //Debug.Log("Flipping");
         Vector3 currentScale = rb.transform.localScale;
         currentScale.x *= -1;
         rb.transform.localScale = currentScale;

@@ -1,7 +1,79 @@
 fileFormatVersion: 2
 guid: 41c8e21f37a07c04181e3c21831c75a9
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6379119699998977797
+    second: npc_body_walk_3_0
+  - first:
+      213: -259722730721175237
+    second: npc_body_walk_3_1
+  - first:
+      213: 7733879919068425235
+    second: npc_body_walk_3_2
+  - first:
+      213: 9172722705916686289
+    second: npc_body_walk_3_3
+  - first:
+      213: 5677078230873379485
+    second: npc_body_walk_3_4
+  - first:
+      213: 1865811719766259495
+    second: npc_body_walk_3_5
+  - first:
+      213: -2940595033029878394
+    second: npc_body_walk_3_6
+  - first:
+      213: 5416795207699290506
+    second: npc_body_walk_3_7
+  - first:
+      213: 8772053911766712536
+    second: npc_body_walk_3_8
+  - first:
+      213: -8380466433771919376
+    second: npc_body_walk_3_9
+  - first:
+      213: 4508021628917007792
+    second: npc_body_walk_3_10
+  - first:
+      213: -1755456995128885454
+    second: npc_body_walk_3_11
+  - first:
+      213: 6558575484887524382
+    second: npc_body_walk_3_12
+  - first:
+      213: 6609140310822049376
+    second: npc_body_walk_3_13
+  - first:
+      213: 3124710451564567899
+    second: npc_body_walk_3_14
+  - first:
+      213: -2923559145061310089
+    second: npc_body_walk_3_15
+  - first:
+      213: -4649129415923744878
+    second: npc_body_walk_3_16
+  - first:
+      213: 7750755219197664160
+    second: npc_body_walk_3_17
+  - first:
+      213: -4626868029646178667
+    second: npc_body_walk_3_18
+  - first:
+      213: 5537827342333687606
+    second: npc_body_walk_3_19
+  - first:
+      213: 7648514675800568163
+    second: npc_body_walk_3_20
+  - first:
+      213: -1068061560510287856
+    second: npc_body_walk_3_21
+  - first:
+      213: 3601970819142239439
+    second: npc_body_walk_3_22
+  - first:
+      213: 4391872420448694077
+    second: npc_body_walk_3_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +113,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +147,525 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: npc_body_walk_3_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1663
+        width: 505
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf05ddd4e60d877a0800000000000000
+      internalID: -6379119699998977797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_1
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1659
+        width: 486
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39154f6d87456cf0800000000000000
+      internalID: -259722730721175237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_2
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1655
+        width: 462
+        height: 928
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ca99f7fc2445b60800000000000000
+      internalID: 7733879919068425235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_3
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1659
+        width: 485
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfe25da3be0c4f70800000000000000
+      internalID: 9172722705916686289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_4
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 1663
+        width: 504
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d929f41929809ce40800000000000000
+      internalID: 5677078230873379485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_5
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 1659
+        width: 489
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727bd66afd1b4e910800000000000000
+      internalID: 1865811719766259495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_6
+      rect:
+        serializedVersion: 2
+        x: 3521
+        y: 1655
+        width: 462
+        height: 928
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68dd9fbb568e037d0800000000000000
+      internalID: -2940595033029878394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_7
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 1659
+        width: 485
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8954ffba825c2b40800000000000000
+      internalID: 5416795207699290506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_8
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 445
+        width: 368
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d04e617e889cb970800000000000000
+      internalID: 8772053911766712536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_9
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 456
+        width: 399
+        height: 925
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7a0fa1e2a92bb80800000000000000
+      internalID: -8380466433771919376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_10
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 449
+        width: 431
+        height: 916
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5406779c5bf8e30800000000000000
+      internalID: 4508021628917007792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_11
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 449
+        width: 446
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f3edae92d53a7e0800000000000000
+      internalID: -1755456995128885454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_12
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 452
+        width: 484
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e146e4997adb40b50800000000000000
+      internalID: 6558575484887524382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_13
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 449
+        width: 447
+        height: 916
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0665341981268bb50800000000000000
+      internalID: 6609140310822049376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_14
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 449
+        width: 430
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5dd47ba9933d5b20800000000000000
+      internalID: 3124710451564567899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_15
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 456
+        width: 395
+        height: 925
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771a6ce727e6d67d0800000000000000
+      internalID: -2923559145061310089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_16
+      rect:
+        serializedVersion: 2
+        x: 4183
+        y: 445
+        width: 368
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fbb09ad69fa7fb0800000000000000
+      internalID: -4649129415923744878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_17
+      rect:
+        serializedVersion: 2
+        x: 4657
+        y: 449
+        width: 379
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab184d7ec6309b60800000000000000
+      internalID: 7750755219197664160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_18
+      rect:
+        serializedVersion: 2
+        x: 5103
+        y: 452
+        width: 399
+        height: 917
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596f35e8a001acfb0800000000000000
+      internalID: -4626868029646178667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_19
+      rect:
+        serializedVersion: 2
+        x: 5572
+        y: 452
+        width: 431
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637be3f80a05adc40800000000000000
+      internalID: 5537827342333687606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_20
+      rect:
+        serializedVersion: 2
+        x: 6062
+        y: 453
+        width: 450
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3617476f29bf42a60800000000000000
+      internalID: 7648514675800568163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_21
+      rect:
+        serializedVersion: 2
+        x: 6555
+        y: 452
+        width: 430
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010f8876bab7d21f0800000000000000
+      internalID: -1068061560510287856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_22
+      rect:
+        serializedVersion: 2
+        x: 7029
+        y: 452
+        width: 403
+        height: 917
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4cb4e3065ccf130800000000000000
+      internalID: 3601970819142239439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_3_23
+      rect:
+        serializedVersion: 2
+        x: 7487
+        y: 449
+        width: 375
+        height: 936
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fedaf72b013fc30800000000000000
+      internalID: 4391872420448694077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

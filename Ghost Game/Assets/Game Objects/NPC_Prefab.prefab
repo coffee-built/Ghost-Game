@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4846403970144444549}
   - component: {fileID: 4846403970144444550}
   m_Layer: 4
-  m_Name: test_npc_body_walk
+  m_Name: NPC_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
