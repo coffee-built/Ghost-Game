@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -77,10 +78,10 @@ public class NPC_Movement : MonoBehaviour
     void RandomUpdateDirection()
     {
 
-        System.Random r = new System.Random();
+        System.Random r = new System.Random(Guid.NewGuid().GetHashCode()); //TODO: Probably not the best way to do this, figure out a less performance heavy alternative
         int d = r.Next(0,1000);
         if (d > 3) return;
-        
+
         Vector2 move = new Vector2(directionsArray[d,0], directionsArray[d,1]);
         if ((move[0] > 0 && !currentlyFacingRight) || (move[0] < 0 && currentlyFacingRight)) Flip();
         ChangeAnimationState(d);

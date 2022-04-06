@@ -1319,7 +1319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f62784ad89168949be7ad56ff7e1aed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charsToGenerate: 10
+  charsToGenerate: 100
   hairVerticalOffset: 1.3
   shirtVerticalOffset: 0
   npcPrefab: {fileID: 4846403970144444546, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
