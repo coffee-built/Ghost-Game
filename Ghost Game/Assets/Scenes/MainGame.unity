@@ -1774,7 +1774,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &634483480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2737,6 +2737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1043426196}
   - component: {fileID: 1043426197}
+  - component: {fileID: 1043426198}
   m_Layer: 0
   m_Name: Table
   m_TagString: Untagged
@@ -2795,8 +2796,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1557352749
-  m_SortingLayer: -1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -8551767968088445028, guid: 661bb980034f8e14ca29b9e53d302818, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2809,6 +2810,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1043426198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043426195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68c05289a7a6d8a44a3fd20353986b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingOrderBase: 5000
+  offset: 7
 --- !u!1 &1157610761
 GameObject:
   m_ObjectHideFlags: 0
@@ -3586,6 +3601,25 @@ Transform:
   m_Father: {fileID: 427050991}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1887061270 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4846403970144444546, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
+  m_PrefabInstance: {fileID: 4846403970848846107}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1887061271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887061270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68c05289a7a6d8a44a3fd20353986b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingOrderBase: 5000
+  offset: 0
 --- !u!1 &1891898824
 GameObject:
   m_ObjectHideFlags: 0

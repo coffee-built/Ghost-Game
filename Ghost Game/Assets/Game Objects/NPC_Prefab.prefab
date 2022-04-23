@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4846403970144444545}
   - component: {fileID: 4846403970144444548}
   - component: {fileID: 4846403970144444549}
+  - component: {fileID: 9195991168091397077}
   - component: {fileID: 4846403970144444550}
   m_Layer: 4
   m_Name: NPC_Prefab
@@ -152,6 +153,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &9195991168091397077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4846403970144444546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68c05289a7a6d8a44a3fd20353986b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortingOrderBase: 5000
+  offset: 0
 --- !u!114 &4846403970144444550
 MonoBehaviour:
   m_ObjectHideFlags: 0
