@@ -3,7 +3,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float playerSpeed = 2.0f;
+
     private Rigidbody2D rb;
+    private ParticleSystem playerAbilityParticleSystem;
 
     private bool currentlyFacingRight = true;
 
@@ -12,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
     }
+
 
     void Update()
     {

@@ -6,11 +6,12 @@ TagManager:
   tags:
   - InternalWall
   - ExternalWall
+  - NPC
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - ExternalWalls

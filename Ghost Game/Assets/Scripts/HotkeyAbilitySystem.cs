@@ -15,22 +15,48 @@ public class HotkeyAbilitySystem
     }
 
     private PlayerMovement player;
+    private ParticleSystem playerAbilityParticleSystem;
+
     private List<HotkeyAbility> hotkeyAbilityList;
 
-    public HotkeyAbilitySystem(PlayerMovement player)
+
+    public HotkeyAbilitySystem(PlayerMovement player, ParticleSystem playerAbilityParticleSystem)
     {
         this.player = player;
+        this.playerAbilityParticleSystem = playerAbilityParticleSystem;
+
+        playerAbilityParticleSystem.Stop();
+        playerAbilityParticleSystem.Clear();
 
         hotkeyAbilityList = new List<HotkeyAbility>();
+
         hotkeyAbilityList.Add(new HotkeyAbility
         {
             abilityType = AbilityType.Scream,
-            action = () => Debug.Log("Screamed")
+            action = () => {
+                Debug.Log("Screamed");
+                if (!playerAbilityParticleSystem.isPlaying)
+                {
+                    ParticleSystem.MainModule settings = playerAbilityParticleSystem.main;
+                    settings.startColor = new ParticleSystem.MinMaxGradient(new Color(200, 0, 0));
+                    playerAbilityParticleSystem.Play();
+                    playerAbilityParticleSystem.Stop();
+                }
+            }
         });
         hotkeyAbilityList.Add(new HotkeyAbility
         {
             abilityType = AbilityType.Light,
-            action = () => Debug.Log("Light")
+            action = () => {
+                Debug.Log("Light");
+                if (!playerAbilityParticleSystem.isPlaying)
+                {
+                    ParticleSystem.MainModule settings = playerAbilityParticleSystem.main;
+                    settings.startColor = new ParticleSystem.MinMaxGradient(new Color(0, 200, 0));
+                    playerAbilityParticleSystem.Play();
+                    playerAbilityParticleSystem.Stop();
+                }
+            }
         });
         hotkeyAbilityList.Add(new HotkeyAbility
         {
