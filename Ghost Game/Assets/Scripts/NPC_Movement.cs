@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class NPC_Movement : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class NPC_Movement : MonoBehaviour
     private Rigidbody2D rb;
     public int minNPCSpeed;
     public int maxNPCSpeed;
+
+    [SerializeField] Transform target;
+    NavMeshAgent agent;
 
     private Vector2 directionVector;
     private int[,] directionsArray = new int[,] {{ 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
@@ -20,6 +24,10 @@ public class NPC_Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+
         // Initial setting of variables would be done here
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -46,8 +54,13 @@ public class NPC_Movement : MonoBehaviour
     {
 
         // TO-DO: add real path planning instead here
-        RandomUpdateDirection();
+        if (target != null)
+        {
+            agent.SetDestination(target.position);
+            //ChangeAnimationState(d);
+        }
 
+        else RandomUpdateDirection();
 
         // rb.velocity = directionVector * minNPCSpeed;
     }
