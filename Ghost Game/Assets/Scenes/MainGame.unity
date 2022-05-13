@@ -1762,7 +1762,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.972416
+  orthographic size: 5.53
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -16921,7 +16921,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 2.525596
-  m_Speed: 3.5
+  m_Speed: 2.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -17163,6 +17163,14 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 914734375}
+    - target: {fileID: 4846403970144444550, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
+      propertyPath: maxNPCSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846403970144444550, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
+      propertyPath: minNPCSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4846403970144444551, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
       propertyPath: m_RootOrder
       value: 5

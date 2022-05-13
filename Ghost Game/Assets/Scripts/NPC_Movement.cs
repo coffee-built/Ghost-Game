@@ -24,9 +24,12 @@ public class NPC_Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        agent = GetComponent<NavMeshAgent>();
-        agent.updateRotation = false;
-        agent.updateUpAxis = false;
+        if (target != null)
+        {
+            agent = GetComponent<NavMeshAgent>();
+            agent.updateRotation = false;
+            agent.updateUpAxis = false;
+        }
 
         // Initial setting of variables would be done here
         animator = GetComponent<Animator>();
@@ -56,7 +59,42 @@ public class NPC_Movement : MonoBehaviour
         // TO-DO: add real path planning instead here
         if (target != null)
         {
+            agent.isStopped = false;
             agent.SetDestination(target.position);
+
+            var desiredDirection = agent.desiredVelocity;
+
+            if (desiredDirection != new Vector3(0, 0, 0))
+            {
+                agent.isStopped = true;
+
+                Vector2 move = desiredDirection;
+
+                string nextAnimationState = directionNames[0];
+
+                if (Math.Abs(desiredDirection.x) > Math.Abs(desiredDirection.y))
+                {
+                    //Move horizontally
+                    move = desiredDirection.x > 0 ? new Vector2(1, 0) : new Vector2(-1, 0);
+                    nextAnimationState = desiredDirection.x > 0 ? directionNames[1] : directionNames[3];
+                }
+                else
+                {
+                    //Move vertically
+                    move = desiredDirection.y > 0 ? new Vector2(0, 1) : new Vector2(0, -1);
+                    nextAnimationState = desiredDirection.x > 0 ? directionNames[0] : directionNames[2];
+                }
+
+                if ((move[0] > 0 && !currentlyFacingRight) || (move[0] < 0 && currentlyFacingRight)) Flip();
+
+                if (currentAnimationState == nextAnimationState) return;
+
+                animator.Play(nextAnimationState);
+                currentAnimationState = nextAnimationState;
+
+                directionVector = move;
+                rb.velocity = move * minNPCSpeed;
+            }
             //ChangeAnimationState(d);
         }
 
