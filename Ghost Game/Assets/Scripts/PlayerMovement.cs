@@ -6,13 +6,14 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private ParticleSystem playerAbilityParticleSystem;
-
-    private bool currentlyFacingRight = true;
+    private SpriteRenderer playerSprite;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
+        playerSprite = GetComponentInChildren<SpriteRenderer>();
+        playerSprite.flipX = false;
     }
 
 
@@ -21,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
         Vector2 move = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         rb.velocity = move * playerSpeed;
 
-        if ((move[0] > 0 && !currentlyFacingRight) || (move[0] < 0 && currentlyFacingRight)) Flip();
+        if ((move[0] > 0 && playerSprite.flipX) || (move[0] < 0 && !playerSprite.flipX)) Flip();
     }
 
     public void LightAbility()
@@ -36,17 +37,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Flip()
     {
-        Vector3 currentScale = rb.transform.localScale;
-        currentScale.x *= -1;
-        rb.transform.localScale = currentScale;
-        currentlyFacingRight = !currentlyFacingRight;
-
-        for (int i = 0; i < transform.childCount; i++)
-        {
-            Vector3 currentChildScale = transform.GetChild(i).localScale;
-            currentChildScale.x *= -1;
-            transform.GetChild(i).localScale = currentChildScale;
-        }
+        playerSprite.flipX = !playerSprite.flipX;
     }
 
 }

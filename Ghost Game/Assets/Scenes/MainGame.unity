@@ -889,17 +889,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 625599632559098560, guid: 9a97ddfd3f655e4408e277603b0dfd8b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4119333319572064526, guid: 9a97ddfd3f655e4408e277603b0dfd8b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6668262966043006260, guid: 9a97ddfd3f655e4408e277603b0dfd8b, type: 3}
       propertyPath: m_GravityScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6711382996122533299, guid: 9a97ddfd3f655e4408e277603b0dfd8b, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7709447478165310708, guid: 9a97ddfd3f655e4408e277603b0dfd8b, type: 3}
       propertyPath: m_Name
       value: Character #1
       objectReference: {fileID: 0}
     - target: {fileID: 7709447478165310708, guid: 9a97ddfd3f655e4408e277603b0dfd8b, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7709447478165310708, guid: 9a97ddfd3f655e4408e277603b0dfd8b, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7709447478165310708, guid: 9a97ddfd3f655e4408e277603b0dfd8b, type: 3}
+      propertyPath: m_TagString
+      value: NPC
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a97ddfd3f655e4408e277603b0dfd8b, type: 3}
@@ -17308,6 +17328,10 @@ PrefabInstance:
     - target: {fileID: 4846403970144444546, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
       propertyPath: m_Name
       value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846403970144444546, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4846403970144444546, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
       propertyPath: m_IsActive
