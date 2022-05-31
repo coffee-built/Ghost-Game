@@ -1,79 +1,79 @@
 fileFormatVersion: 2
-guid: 451b9d73239d83f4d8a6ac2ae09ff1bf
+guid: 0b9ab36e82fdfc942805464dec695690
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 348237288050748315
-    second: npc_body_walk_2_0
+      213: -1941233675691299084
+    second: npc_body_walk_7@3x_0
   - first:
-      213: 1425594882972875321
-    second: npc_body_walk_2_1
+      213: -3379066446450791963
+    second: npc_body_walk_7@3x_1
   - first:
-      213: 8878003225589634621
-    second: npc_body_walk_2_2
+      213: -8420138031559787166
+    second: npc_body_walk_7@3x_2
   - first:
-      213: -7516858460094089378
-    second: npc_body_walk_2_3
+      213: -3357928753139266998
+    second: npc_body_walk_7@3x_3
   - first:
-      213: -3601830831364338370
-    second: npc_body_walk_2_4
+      213: 2026119830455752208
+    second: npc_body_walk_7@3x_4
   - first:
-      213: 7906141836308944003
-    second: npc_body_walk_2_5
+      213: 8568962738754449463
+    second: npc_body_walk_7@3x_5
   - first:
-      213: -4686893140100399234
-    second: npc_body_walk_2_6
+      213: 6390220965591316470
+    second: npc_body_walk_7@3x_6
   - first:
-      213: -3881175486141608013
-    second: npc_body_walk_2_7
+      213: -2112885380967374237
+    second: npc_body_walk_7@3x_7
   - first:
-      213: -120722193443059232
-    second: npc_body_walk_2_8
+      213: -3294494053023682221
+    second: npc_body_walk_7@3x_8
   - first:
-      213: 342142711027648768
-    second: npc_body_walk_2_9
+      213: -8522308647745296211
+    second: npc_body_walk_7@3x_9
   - first:
-      213: -2080102020674619534
-    second: npc_body_walk_2_10
+      213: -6838549289004347108
+    second: npc_body_walk_7@3x_10
   - first:
-      213: 6305833094305361280
-    second: npc_body_walk_2_11
+      213: -7693061808816676974
+    second: npc_body_walk_7@3x_11
   - first:
-      213: -6454018753809001338
-    second: npc_body_walk_2_12
+      213: 5733729658640155208
+    second: npc_body_walk_7@3x_12
   - first:
-      213: -3349108512391605284
-    second: npc_body_walk_2_13
+      213: -4847527730007235407
+    second: npc_body_walk_7@3x_13
   - first:
-      213: -6010545471199433913
-    second: npc_body_walk_2_14
+      213: -8073988658167205044
+    second: npc_body_walk_7@3x_14
   - first:
-      213: 137069007681821635
-    second: npc_body_walk_2_15
+      213: 1483746845507800932
+    second: npc_body_walk_7@3x_15
   - first:
-      213: 7145612589880540854
-    second: npc_body_walk_2_16
+      213: -4970643594925100851
+    second: npc_body_walk_7@3x_16
   - first:
-      213: -6592088958370573054
-    second: npc_body_walk_2_17
+      213: -125214859732441164
+    second: npc_body_walk_7@3x_17
   - first:
-      213: -11796045318376318
-    second: npc_body_walk_2_18
+      213: -4622101258223329664
+    second: npc_body_walk_7@3x_18
   - first:
-      213: 6499151926035493886
-    second: npc_body_walk_2_19
+      213: 2456878754245710901
+    second: npc_body_walk_7@3x_19
   - first:
-      213: 3473386227527485581
-    second: npc_body_walk_2_20
+      213: 6823332325738677256
+    second: npc_body_walk_7@3x_20
   - first:
-      213: 444358045349685020
-    second: npc_body_walk_2_21
+      213: -7437597783430674000
+    second: npc_body_walk_7@3x_21
   - first:
-      213: -985900987157474047
-    second: npc_body_walk_2_22
+      213: -5022972865656994004
+    second: npc_body_walk_7@3x_22
   - first:
-      213: 731262852605980819
-    second: npc_body_walk_2_23
+      213: -1245080305571480793
+    second: npc_body_walk_7@3x_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -163,95 +163,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: npc_body_walk_2_0
+      name: npc_body_walk_7@3x_0
       rect:
         serializedVersion: 2
-        x: 104
-        y: 1702
-        width: 505
-        height: 963
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9b6fcbe7ff25d400800000000000000
-      internalID: 348237288050748315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_body_walk_2_1
-      rect:
-        serializedVersion: 2
-        x: 718
-        y: 1702
-        width: 486
-        height: 936
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93a76313efab8c310800000000000000
-      internalID: 1425594882972875321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_body_walk_2_2
-      rect:
-        serializedVersion: 2
-        x: 1290
-        y: 1694
-        width: 462
-        height: 928
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d36da0065e0053b70800000000000000
-      internalID: 8878003225589634621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_body_walk_2_3
-      rect:
-        serializedVersion: 2
-        x: 1834
-        y: 1702
-        width: 485
-        height: 936
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e57b33b7e01cea790800000000000000
-      internalID: -7516858460094089378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_body_walk_2_4
-      rect:
-        serializedVersion: 2
-        x: 2402
-        y: 1702
+        x: 69
+        y: 1654
         width: 504
         height: 963
       alignment: 0
@@ -261,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3d8a7331f9b30ec0800000000000000
-      internalID: -3601830831364338370
+      spriteID: 4fee46ec14a5f05e0800000000000000
+      internalID: -1941233675691299084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_body_walk_2_5
+      name: npc_body_walk_7@3x_1
       rect:
         serializedVersion: 2
-        x: 2977
-        y: 1702
-        width: 489
-        height: 936
+        x: 683
+        y: 1650
+        width: 485
+        height: 940
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,18 +198,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3849c019c1248bd60800000000000000
-      internalID: 7906141836308944003
+      spriteID: 5e9ebd258f42b11d0800000000000000
+      internalID: -3379066446450791963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_body_walk_2_6
+      name: npc_body_walk_7@3x_2
       rect:
         serializedVersion: 2
-        x: 3521
-        y: 1694
+        x: 1255
+        y: 1646
         width: 462
         height: 928
       alignment: 0
@@ -303,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7fb914758fc4feb0800000000000000
-      internalID: -4686893140100399234
+      spriteID: 26d3f157219a52b80800000000000000
+      internalID: -8420138031559787166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_body_walk_2_7
+      name: npc_body_walk_7@3x_3
       rect:
         serializedVersion: 2
-        x: 4026
-        y: 1702
+        x: 1799
+        y: 1650
         width: 485
-        height: 936
+        height: 940
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,20 +240,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bf439d657b432ac0800000000000000
-      internalID: -3881175486141608013
+      spriteID: a4a4010179d3661d0800000000000000
+      internalID: -3357928753139266998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_body_walk_2_8
+      name: npc_body_walk_7@3x_4
       rect:
         serializedVersion: 2
-        x: 155
-        y: 484
+        x: 2366
+        y: 1654
+        width: 505
+        height: 963
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01690be30493e1c10800000000000000
+      internalID: 2026119830455752208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_7@3x_5
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 1650
+        width: 485
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7307409e5321be670800000000000000
+      internalID: 8568962738754449463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_7@3x_6
+      rect:
+        serializedVersion: 2
+        x: 3482
+        y: 1646
+        width: 462
+        height: 928
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7f2528c10aea850800000000000000
+      internalID: 6390220965591316470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_7@3x_7
+      rect:
+        serializedVersion: 2
+        x: 3991
+        y: 1650
+        width: 485
+        height: 940
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362e258c0f58da2e0800000000000000
+      internalID: -2112885380967374237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_7@3x_8
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 433
         width: 368
-        height: 955
+        height: 958
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -345,187 +345,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e9025ffdcb135ef0800000000000000
-      internalID: -120722193443059232
+      spriteID: 351f2ee1d1b9742d0800000000000000
+      internalID: -3294494053023682221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_body_walk_2_9
+      name: npc_body_walk_7@3x_9
       rect:
         serializedVersion: 2
-        x: 640
-        y: 496
-        width: 399
-        height: 924
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 009ca41abf88fb400800000000000000
-      internalID: 342142711027648768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_body_walk_2_10
-      rect:
-        serializedVersion: 2
-        x: 1133
-        y: 492
-        width: 431
-        height: 912
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 277fd19ab3ef123e0800000000000000
-      internalID: -2080102020674619534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_body_walk_2_11
-      rect:
-        serializedVersion: 2
-        x: 1662
-        y: 492
-        width: 446
-        height: 916
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08d29fe1ac1d28750800000000000000
-      internalID: 6305833094305361280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_body_walk_2_12
-      rect:
-        serializedVersion: 2
-        x: 2171
-        y: 492
-        width: 484
-        height: 912
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68451856328be66a0800000000000000
-      internalID: -6454018753809001338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_body_walk_2_13
-      rect:
-        serializedVersion: 2
-        x: 2726
-        y: 492
-        width: 447
-        height: 912
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd359a46d839581d0800000000000000
-      internalID: -3349108512391605284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_body_walk_2_14
-      rect:
-        serializedVersion: 2
-        x: 3212
-        y: 492
-        width: 430
-        height: 916
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74b23da3db0469ca0800000000000000
-      internalID: -6010545471199433913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_body_walk_2_15
-      rect:
-        serializedVersion: 2
-        x: 3705
-        y: 496
+        x: 605
+        y: 448
         width: 395
-        height: 924
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3cb17984987f6e100800000000000000
-      internalID: 137069007681821635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_body_walk_2_16
-      rect:
-        serializedVersion: 2
-        x: 4183
-        y: 484
-        width: 368
-        height: 955
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6be736a9ac05a2360800000000000000
-      internalID: 7145612589880540854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_body_walk_2_17
-      rect:
-        serializedVersion: 2
-        x: 4657
-        y: 488
-        width: 379
         height: 936
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -534,20 +366,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2051c8cc4023484a0800000000000000
-      internalID: -6592088958370573054
+      spriteID: da8e6e0207daab980800000000000000
+      internalID: -8522308647745296211
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_body_walk_2_18
+      name: npc_body_walk_7@3x_10
       rect:
         serializedVersion: 2
-        x: 5103
-        y: 492
-        width: 399
-        height: 916
+        x: 1094
+        y: 441
+        width: 434
+        height: 931
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -555,41 +387,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2843b0d2f8716dff0800000000000000
-      internalID: -11796045318376318
+      spriteID: c1155e167a79811a0800000000000000
+      internalID: -6838549289004347108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_body_walk_2_19
+      name: npc_body_walk_7@3x_11
       rect:
         serializedVersion: 2
-        x: 5572
-        y: 492
-        width: 431
-        height: 912
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef334a42e30a13a50800000000000000
-      internalID: 6499151926035493886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: npc_body_walk_2_20
-      rect:
-        serializedVersion: 2
-        x: 6062
-        y: 493
+        x: 1599
+        y: 441
         width: 450
-        height: 911
+        height: 920
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -597,20 +408,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8882830f52f33030800000000000000
-      internalID: 3473386227527485581
+      spriteID: 29f9b526b01cc3590800000000000000
+      internalID: -7693061808816676974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_body_walk_2_21
+      name: npc_body_walk_7@3x_12
       rect:
         serializedVersion: 2
-        x: 6555
-        y: 492
-        width: 430
-        height: 912
+        x: 2108
+        y: 444
+        width: 485
+        height: 909
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -618,20 +429,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c17a726b94daa2600800000000000000
-      internalID: 444358045349685020
+      spriteID: 8424e55febc429f40800000000000000
+      internalID: 5733729658640155208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_body_walk_2_22
+      name: npc_body_walk_7@3x_13
       rect:
         serializedVersion: 2
-        x: 7029
-        y: 492
-        width: 403
-        height: 916
+        x: 2653
+        y: 441
+        width: 449
+        height: 920
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -639,19 +450,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10595c496406152f0800000000000000
-      internalID: -985900987157474047
+      spriteID: 1b4201e763f1abcb0800000000000000
+      internalID: -4847527730007235407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: npc_body_walk_2_23
+      name: npc_body_walk_7@3x_14
       rect:
         serializedVersion: 2
-        x: 7487
-        y: 488
-        width: 375
+        x: 3157
+        y: 441
+        width: 434
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43396dd71e63ff80800000000000000
+      internalID: -8073988658167205044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_7@3x_15
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 448
+        width: 398
         height: 936
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -660,8 +492,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 390b407a0b7f52a00800000000000000
-      internalID: 731262852605980819
+      spriteID: 46f491f05e3579410800000000000000
+      internalID: 1483746845507800932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_7@3x_16
+      rect:
+        serializedVersion: 2
+        x: 4124
+        y: 433
+        width: 368
+        height: 958
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc03b6b6cf9b40bb0800000000000000
+      internalID: -4970643594925100851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_7@3x_17
+      rect:
+        serializedVersion: 2
+        x: 4579
+        y: 437
+        width: 390
+        height: 947
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b72c0d9fb5234ef0800000000000000
+      internalID: -125214859732441164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_7@3x_18
+      rect:
+        serializedVersion: 2
+        x: 5064
+        y: 437
+        width: 395
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e56b3056ffadfb0800000000000000
+      internalID: -4622101258223329664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_7@3x_19
+      rect:
+        serializedVersion: 2
+        x: 5553
+        y: 433
+        width: 403
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534150bb536981220800000000000000
+      internalID: 2456878754245710901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_7@3x_20
+      rect:
+        serializedVersion: 2
+        x: 6026
+        y: 437
+        width: 450
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8040814499851be50800000000000000
+      internalID: 6823332325738677256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_7@3x_21
+      rect:
+        serializedVersion: 2
+        x: 6547
+        y: 433
+        width: 403
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9c168d83858c890800000000000000
+      internalID: -7437597783430674000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_7@3x_22
+      rect:
+        serializedVersion: 2
+        x: 7025
+        y: 437
+        width: 395
+        height: 931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27c612aac0da4ab0800000000000000
+      internalID: -5022972865656994004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: npc_body_walk_7@3x_23
+      rect:
+        serializedVersion: 2
+        x: 7491
+        y: 437
+        width: 390
+        height: 947
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bb39d0f0698bee0800000000000000
+      internalID: -1245080305571480793
       vertices: []
       indices: 
       edges: []
