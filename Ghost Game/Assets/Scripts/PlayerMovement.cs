@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
         rb.freezeRotation = true;
         playerSprite = GetComponentInChildren<SpriteRenderer>();
         playerSprite.flipX = false;
+
     }
 
 

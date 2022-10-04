@@ -21,14 +21,23 @@ public class NPC_Movement : MonoBehaviour
     private string[] directionNames = new string[] { "npc_body5_walk_front" , "npc_body5_walk_side", "npc_body5_walk_front" , "npc_body5_walk_side"};
     private bool currentlyFacingRight = true;
 
+    public int framesTillDirectionSwitchAllowed;
+    private int currentFramesSinceLastDirectionSwitch;
+    private bool currentlyExecutingMovement;
+    private Vector3 nextDesiredPosition;
+
     // Start is called before the first frame update
     void Start()
     {
+        currentlyExecutingMovement = false;
+        currentFramesSinceLastDirectionSwitch = framesTillDirectionSwitchAllowed;
+
         if (target != null)
         {
             agent = GetComponent<NavMeshAgent>();
             agent.updateRotation = false;
             agent.updateUpAxis = false;
+            agent.angularSpeed = 0;
         }
 
         // Initial setting of variables would be done here
@@ -55,52 +64,64 @@ public class NPC_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        // TO-DO: add real path planning instead here
         if (target != null)
         {
-            agent.isStopped = false;
-            agent.SetDestination(target.position);
-
-            var desiredDirection = agent.desiredVelocity;
-
-            if (desiredDirection != new Vector3(0, 0, 0))
+            if (currentFramesSinceLastDirectionSwitch < framesTillDirectionSwitchAllowed)
             {
-                agent.isStopped = true;
+                Debug.Log(agent.desiredVelocity);
+                //if (nextDesiredPosition == agent.transform.position)
+                if (Math.Abs(nextDesiredPosition.x - agent.transform.position.x) < 0.2
+                    || Math.Abs(nextDesiredPosition.y - agent.transform.position.y) < 0.2)
+                {
+                    currentFramesSinceLastDirectionSwitch = framesTillDirectionSwitchAllowed;
+                }
+                else currentFramesSinceLastDirectionSwitch += 1;
+            }
+            else
+            {
+                Debug.Log("Switching");
+                currentFramesSinceLastDirectionSwitch = 0;
 
-                Vector2 move = desiredDirection;
+                agent.isStopped = false;
+                agent.SetDestination(target.position);
 
+                var desiredDirection = agent.desiredVelocity;
+                desiredDirection.z = 0f;
                 string nextAnimationState = directionNames[0];
 
                 if (Math.Abs(desiredDirection.x) > Math.Abs(desiredDirection.y))
                 {
+                    Debug.Log("Horizontal Movement");
                     //Move horizontally
-                    move = desiredDirection.x > 0 ? new Vector2(1, 0) : new Vector2(-1, 0);
+                    desiredDirection.y = 0f;
                     nextAnimationState = desiredDirection.x > 0 ? directionNames[1] : directionNames[3];
                 }
                 else
                 {
+                    Debug.Log("Vertical Movement");
                     //Move vertically
-                    move = desiredDirection.y > 0 ? new Vector2(0, 1) : new Vector2(0, -1);
+                    desiredDirection.x = 0f;
                     nextAnimationState = desiredDirection.x > 0 ? directionNames[0] : directionNames[2];
                 }
 
-                if ((move[0] > 0 && !currentlyFacingRight) || (move[0] < 0 && currentlyFacingRight)) Flip();
+                nextDesiredPosition = agent.transform.position + desiredDirection;
+                //agent.SetDestination(nextDesiredPosition);
+
+                if ((desiredDirection[0] > 0 && !currentlyFacingRight) || (desiredDirection[0] < 0 && currentlyFacingRight)) Flip();
 
                 if (currentAnimationState == nextAnimationState) return;
 
                 animator.Play(nextAnimationState);
                 currentAnimationState = nextAnimationState;
 
-                directionVector = move;
-                rb.velocity = move * minNPCSpeed;
+                directionVector = desiredDirection;
+                rb.velocity = desiredDirection * minNPCSpeed;
             }
-            //ChangeAnimationState(d);
         }
 
         else RandomUpdateDirection();
 
-        // rb.velocity = directionVector * minNPCSpeed;
+        //rb.velocity = directionVector * minNPCSpeed;
     }
 
     void OnTriggerEnter2D(Collider2D collision)

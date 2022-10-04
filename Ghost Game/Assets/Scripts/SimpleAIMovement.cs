@@ -18,6 +18,7 @@ public class SimpleAIMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        var destination = 
         agent.SetDestination(target.position);
     }
 }
