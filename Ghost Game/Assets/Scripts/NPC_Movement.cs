@@ -68,7 +68,7 @@ public class NPC_Movement : MonoBehaviour
         {
             if (currentFramesSinceLastDirectionSwitch < framesTillDirectionSwitchAllowed)
             {
-                Debug.Log(agent.desiredVelocity);
+                //Debug.Log(agent.desiredVelocity);
                 //if (nextDesiredPosition == agent.transform.position)
                 if (Math.Abs(nextDesiredPosition.x - agent.transform.position.x) < 0.2
                     || Math.Abs(nextDesiredPosition.y - agent.transform.position.y) < 0.2)
@@ -79,7 +79,7 @@ public class NPC_Movement : MonoBehaviour
             }
             else
             {
-                Debug.Log("Switching");
+                //Debug.Log("Switching");
                 currentFramesSinceLastDirectionSwitch = 0;
 
                 agent.isStopped = false;
@@ -91,14 +91,14 @@ public class NPC_Movement : MonoBehaviour
 
                 if (Math.Abs(desiredDirection.x) > Math.Abs(desiredDirection.y))
                 {
-                    Debug.Log("Horizontal Movement");
+                    //Debug.Log("Horizontal Movement");
                     //Move horizontally
                     desiredDirection.y = 0f;
                     nextAnimationState = desiredDirection.x > 0 ? directionNames[1] : directionNames[3];
                 }
                 else
                 {
-                    Debug.Log("Vertical Movement");
+                    //Debug.Log("Vertical Movement");
                     //Move vertically
                     desiredDirection.x = 0f;
                     nextAnimationState = desiredDirection.x > 0 ? directionNames[0] : directionNames[2];
