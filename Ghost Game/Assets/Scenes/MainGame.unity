@@ -142,7 +142,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minNPCSpeed: 2
   maxNPCSpeed: 2
+  TimeKeeper: {fileID: 1859855955}
   target: {fileID: 914734375}
+  routine:
+  - {fileID: 914734375}
+  - {fileID: 1253712074}
   framesTillDirectionSwitchAllowed: 200
 --- !u!212 &844356
 SpriteRenderer:
@@ -17823,7 +17827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeDisplay: {fileID: 1406918747}
-  secondsPerHour: 3
+  secondsPerHour: 12
 --- !u!4 &1859855957
 Transform:
   m_ObjectHideFlags: 0
@@ -18119,7 +18123,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4846403970144444546, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4846403970144444548, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
       propertyPath: m_Size.y
@@ -18132,6 +18136,22 @@ PrefabInstance:
     - target: {fileID: 4846403970144444548, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
       propertyPath: m_Offset.y
       value: -2.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846403970144444548, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 5.042864
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846403970144444548, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 9.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846403970144444548, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 5.042864
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846403970144444548, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 9.62
       objectReference: {fileID: 0}
     - target: {fileID: 4846403970144444550, guid: 177eef5f23c0be849b1276b368226f54, type: 3}
       propertyPath: target

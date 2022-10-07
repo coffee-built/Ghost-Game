@@ -9,7 +9,7 @@ public class TimeKeeping : MonoBehaviour
 
     private float lastCheckedTimeStamp;
 
-    private System.DateTime currentTime;
+    public System.DateTime currentTime;
     private TextMeshProUGUI textDisplay;
 
     void Start()

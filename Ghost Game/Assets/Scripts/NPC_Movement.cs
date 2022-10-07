@@ -4,6 +4,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+public class Routine {
+    List<Task> tasks;
+}
+
+public class Task {
+    [SerializeField] Transform location;
+    Time startTime;
+    Time endTime;
+    bool isOptional;
+    //One to Ten in case an event is skipped and one needs to be chosen
+    int priority;
+}
+
 public class NPC_Movement : MonoBehaviour
 {
     private Animator animator;
@@ -12,8 +25,15 @@ public class NPC_Movement : MonoBehaviour
     public int minNPCSpeed;
     public int maxNPCSpeed;
 
+    public GameObject TimeKeeper;
+
     [SerializeField] Transform target;
     NavMeshAgent agent;
+
+    //public Routine npcRoutine;
+    //public List<Task> routetine;
+
+    public List<Transform> routine;
 
     private Vector2 directionVector;
     private int[,] directionsArray = new int[,] {{ 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
