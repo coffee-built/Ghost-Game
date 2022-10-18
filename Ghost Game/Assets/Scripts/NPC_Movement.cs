@@ -1,20 +1,16 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Routine {
-    List<Task> tasks;
-}
-
+[System.Serializable]
 public class Task {
-    [SerializeField] Transform location;
-    Time startTime;
-    Time endTime;
-    bool isOptional;
+    public Transform location;
+    public int startTime;
+    public int endTime;
+    public bool isOptional;
     //One to Ten in case an event is skipped and one needs to be chosen
-    int priority;
+    public int priority;
 }
 
 public class NPC_Movement : MonoBehaviour
@@ -25,15 +21,14 @@ public class NPC_Movement : MonoBehaviour
     public int minNPCSpeed;
     public int maxNPCSpeed;
 
-    public GameObject TimeKeeper;
+    public TimeKeeping TimeKeeper;
+    private System.DateTime currentTime;
 
-    [SerializeField] Transform target;
+    private Transform target;
     NavMeshAgent agent;
 
-    //public Routine npcRoutine;
-    //public List<Task> routetine;
-
-    public List<Transform> routine;
+    public List<Task> routine;
+    private int routineIndex;
 
     private Vector2 directionVector;
     private int[,] directionsArray = new int[,] {{ 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
@@ -49,6 +44,9 @@ public class NPC_Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        routineIndex = 0;
+        target = routine[0].location;
+
         currentlyExecutingMovement = false;
         currentFramesSinceLastDirectionSwitch = framesTillDirectionSwitchAllowed;
 
@@ -84,6 +82,13 @@ public class NPC_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (routine[routineIndex].endTime <= TimeKeeper.outputTime)
+        {
+            if (routineIndex == routine.Count - 1) routineIndex = 0;
+            else routineIndex += 1;
+            target = routine[routineIndex].location;
+        }
+
         if (target != null)
         {
             if (currentFramesSinceLastDirectionSwitch < framesTillDirectionSwitchAllowed)

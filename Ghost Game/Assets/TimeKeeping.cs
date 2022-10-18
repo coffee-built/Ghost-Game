@@ -12,10 +12,13 @@ public class TimeKeeping : MonoBehaviour
     public System.DateTime currentTime;
     private TextMeshProUGUI textDisplay;
 
+    public int outputTime;
+
     void Start()
     {
         //Starting DateTime of 2020/06/06 00:00
         currentTime = new System.DateTime(2020, 6, 6, 0, 0, 0);
+        outputTime = 0;
         lastCheckedTimeStamp = Time.time;
 
         textDisplay = timeDisplay.GetComponent<TextMeshProUGUI>();
@@ -29,6 +32,9 @@ public class TimeKeeping : MonoBehaviour
             currentTime = currentTime.AddHours(1);
             lastCheckedTimeStamp = Time.time;
             textDisplay.text = currentTime.ToShortTimeString();
+            outputTime = currentTime.Hour;
+
+            Debug.Log(outputTime);
         }
         
     }
